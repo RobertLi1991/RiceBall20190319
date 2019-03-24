@@ -393,6 +393,10 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b169e26cb132c8a4d90edd3411f4d106, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b169e26cb132c8a4d90edd3411f4d106, type: 3}
   m_IsPrefabAsset: 0
@@ -561,7 +565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1139446228
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -589,7 +593,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 5ff025df740562a4ba841c04b295488e, type: 2}
+  - {fileID: 2100000, guid: 64c35e0be626f6b49ba7b5627dd9b6da, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
